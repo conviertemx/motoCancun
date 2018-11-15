@@ -21,7 +21,7 @@ var images = {
     gameOver: "./motoAccidentada.jpeg",
     winner: "./motoEnPlaya.jpg",
     pothole: "pothole.png",
-    cover:"Cancun.jpg"
+    cover:"portada1.jpg"
 }
 var potholes = []
 var questions = [
@@ -221,6 +221,7 @@ function update(){
 function gameOver(){
     clearInterval(interval)
     interval = null
+    //drawCoverWinner()
     ctx.fillStyle = "red"
     ctx.font = "bold 60px"
     ctx.fillText("GAME OVER", 10,150)
@@ -276,6 +277,14 @@ function drawCoverWinner(){
     img.src = images.winner
     img.onload = function(){
         //bg.draw()
+        ctx.drawImage(img, 0,0,canvas.width,canvas.height)
+    }
+}
+
+function drawCoverGameOver(){
+    var img = new Image()
+    img.src = images.gameOver
+    img.onload = function(){
         ctx.drawImage(img, 0,0,canvas.width,canvas.height)
     }
 }
