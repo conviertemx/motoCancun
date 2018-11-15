@@ -234,7 +234,6 @@ function gameOver(){
     crash = new Audio()
     crash.src = audio.crash
     crash.play()
-  
 }
 
 var img = new Image()
@@ -245,13 +244,11 @@ function ganaste(){
     interval = null
     //drawCoverWinner()
     ctx.drawImage(img, 0,0,canvas.width,canvas.height)
-    
     ctx.fillStyle = "red"
     ctx.font = "bold 60px"
     ctx.fillText("Ganaste, bienvenido a Cancún", 10,150)
     ctx.fillStyle = "white"
     ctx.font = "bold 40px"
-    ctx.font = "bold 12px"
     ctx.fillText("Tu score fue de: " + score, 10,200)
     ctx.fillText("Player 2, presiona 'Return' para reiniciar", 10,230)
     musica.src = audio.stop
