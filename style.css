@@ -1,0 +1,54 @@
+#cancun{
+    border-style: solid;
+    border: .5rem outset green;
+
+}
+
+body{
+    background-image: url("https://www.nitro.pe/images/2016/setiembre/motociclistaaa.jpg");
+    background-size: cover; 
+    display:flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+h2{
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 20px;
+}
+
+section{
+    align-self: flex-end;
+    opacity: .80;
+    background-color: darkgray;
+    padding: 0px 25px;
+    border-radius: 25px;
+}
+
+p{
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 20px;
+
+}
+
+ul li{
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 20px;
+}
+
+#ganas{
+    color:red;
+    font-weight: bold;
+}
