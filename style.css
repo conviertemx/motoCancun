@@ -23,6 +23,7 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: blue;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 section{
@@ -51,4 +52,10 @@ ul li{
 #ganas{
     color:red;
     font-weight: bold;
+}
+
+#ejemplo{
+    color: green;
+    font-weight: bold;
+
 }

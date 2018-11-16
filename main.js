@@ -217,15 +217,18 @@ function update(){
     bg.drawQuestions()
     checkGameTime()
 }
+var img = new Image()
+img.srcset = images.gameOver
 
 function gameOver(){
     clearInterval(interval)
     interval = null
-    //drawCoverWinner()
+    //drawCoverGameOver()
+    ctx.drawImage(img, 0,0,canvas.width,canvas.height)
     ctx.fillStyle = "red"
     ctx.font = "bold 60px"
     ctx.fillText("GAME OVER", 10,150)
-    ctx.fillStyle = "white"
+    ctx.fillStyle = "black"
     ctx.font = "bold 40px"
     ctx.font = "bold 12px"
     ctx.fillText("Tu score fue de: " + score, 10,200)
