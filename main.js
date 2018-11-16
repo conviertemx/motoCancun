@@ -356,7 +356,7 @@ function checkQuestions(){
 }
 
 function checkNumAnswers(){
-    if(numAnswers === questions.length-10) {
+    if(numAnswers === questions.length-8) {
         ganaste()
     } 
 }
